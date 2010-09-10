@@ -111,8 +111,7 @@ run(void)
 			break;
 		case '-':
 			if (*ptr == 0)
-				errx(1, "integer underflow at command %i "
-				    "(*ptr = %i)", i, *ptr);
+				errx(1, "integer underflow");
 			--*ptr;
 			break;
 		case '.':
