@@ -39,7 +39,7 @@ Examples
     % echo "+[-[]]]" | nanobfi
     nanobfi: unbalanced brackets
 
-    % echo "+[-[><]]]" | ./nanobfi -d
+    % echo "+[-[><]]]" | nanobfi -d
     (1) command + pos 0 level 0 ptr 0 *ptr 0
     (2) command [ pos 1 level 0 ptr 0 *ptr 1
     (3) command - pos 2 level 1 ptr 0 *ptr 1
